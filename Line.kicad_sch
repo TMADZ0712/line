@@ -957,38 +957,36 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TCRT5000:TCRT5000"
+		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
 			)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -5.0887 5.7248 0)
+			(property "Reference" "H"
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Value" "TCRT5000"
-				(at -5.0838 -5.7193 0)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Footprint" "TCRT5000:OPTO_TCRT5000"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -997,7 +995,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 				)
 			)
 			(property "Datasheet" ""
@@ -1011,7 +1008,7 @@
 					)
 				)
 			)
-			(property "Description" "Reflective Optical Sensor 0.591 (15mm) PCB Mount"
+			(property "Description" "Mounting Hole without connection"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1020,10 +1017,9 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 				)
 			)
-			(property "MF" "Vishay"
+			(property "ki_keywords" "mounting hole"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1032,10 +1028,9 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 				)
 			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "7.2mm"
+			(property "ki_fp_filters" "MountingHole*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1044,10 +1039,77 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 				)
 			)
-			(property "Package" "TCRT5000 Vishay"
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Sensor_Proximity:QRE1113GR"
+			(pin_names
+				(offset 0.0254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -3.81 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "QRE1113GR"
+				(at 11.43 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "OptoDevice:OnSemi_CASE100CY"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Miniature Reflective Optical Object Sensor, SMD-4"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1056,10 +1118,9 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 				)
 			)
-			(property "Price" "None"
+			(property "ki_keywords" "Reflective Optical Sensor Opto reflex coupler"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1068,10 +1129,9 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 				)
 			)
-			(property "Check_prices" "https://www.snapeda.com/parts/TCRT5000/Vishay+Semiconductor+Opto+Division/view-part/?ref=eda"
+			(property "ki_fp_filters" "OnSemi*CASE100CY*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1080,408 +1140,349 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 				)
 			)
-			(property "STANDARD" "Manufacturer recommendations"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "QRE1113GR_0_1"
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -3.175 -2.54) (xy -3.175 2.54) (xy -5.08 2.54)
 					)
-					(justify bottom)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -3.81) (xy 5.08 -3.81) (xy 5.08 3.81) (xy -5.08 3.81) (xy -5.08 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -0.635) (xy -2.54 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -0.635) (xy -3.81 0.635) (xy -2.54 0.635) (xy -3.175 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.651) (xy -1.524 2.667) (xy -2.032 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 2.921) (xy -2.032 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.159 0.889) (xy -1.143 1.905) (xy -1.651 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.921) (xy -1.524 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 2.667) (xy -1.651 2.159)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.921) (xy -1.016 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.143 1.905) (xy -1.27 1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 2.921) (xy -0.508 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 2.921) (xy 0 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 2.921) (xy 0.508 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 1.651 0.889) (xy 1.524 1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.921) (xy 1.016 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 2.667) (xy 2.032 1.651) (xy 1.905 2.159)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.921) (xy 1.524 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.651 0.889) (xy 1.143 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 2.921) (xy -2.413 2.921)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 1.651) (xy 1.524 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.667 1.016) (xy 2.667 -1.016)
+					)
+					(stroke
+						(width 0.3556)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.667 0.127) (xy 3.81 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.667 -0.127) (xy 3.81 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.143) (xy 3.429 -0.635) (xy 3.175 -0.889) (xy 3.683 -1.143)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.27) (xy 3.81 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.27) (xy 3.81 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
 				)
 			)
-			(property "PARTREV" "1.7"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TCRT5000/Vishay+Semiconductor+Opto+Division/view-part/?ref=snap"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MP" "TCRT5000"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=885229&manufacturer=Vishay&part_name=TCRT5000&search_term=None"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MANUFACTURER" "Vishay"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(symbol "TCRT5000_0_0"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy -5.08 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 2.54) (xy -5.08 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 2.54) (xy -2.54 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -2.54) (xy -5.08 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -5.08) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 0.635) (xy -1.905 0.635) (xy -2.54 0) (xy -3.175 0.635)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 0) (xy -1.905 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy -2.54 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy -5.08 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 1.27) (xy 0.635 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy -0.635 1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 0.635 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0) (xy 0 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 1.905) (xy 1.905 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 0) (xy 1.905 -1.905)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 0) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 0) (xy 3.81 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 -2.54) (xy 3.81 -2.54) (xy 3.81 -1.905) (xy 3.175 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -5.08) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "QRE1113GR_1_1"
 				(pin passive line
 					(at -7.62 2.54 0)
 					(length 2.54)
-					(name ""
+					(name "A"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "A"
+					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -1489,53 +1490,53 @@
 				(pin passive line
 					(at -7.62 -2.54 0)
 					(length 2.54)
-					(name ""
+					(name "K"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "CATH"
+					(number "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin passive line
+				(pin open_collector line
 					(at 7.62 2.54 180)
 					(length 2.54)
 					(name ""
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "COLL"
+					(number "3"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin passive line
+				(pin open_emitter line
 					(at 7.62 -2.54 180)
 					(length 2.54)
 					(name ""
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "E"
+					(number "4"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -1799,12 +1800,6 @@
 		)
 	)
 	(junction
-		(at 86.36 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "07658b8b-554e-4db8-b47a-7c5a124d064f")
-	)
-	(junction
 		(at 41.91 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2012,16 +2007,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 180.34) (xy 107.95 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "337900ab-0889-455c-9bb7-4894d40b3a9d")
-	)
-	(wire
-		(pts
 			(xy 86.36 46.99) (xy 88.9 46.99)
 		)
 		(stroke
@@ -2182,16 +2167,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 172.72) (xy 107.95 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6db6ae99-133e-4b4f-a20d-cafd361bb7d8")
-	)
-	(wire
-		(pts
 			(xy 41.91 25.4) (xy 44.45 25.4)
 		)
 		(stroke
@@ -2219,16 +2194,6 @@
 			(type default)
 		)
 		(uuid "72337f63-af3b-4763-a5a1-270d7b9650ad")
-	)
-	(wire
-		(pts
-			(xy 81.28 172.72) (xy 86.36 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74f6833d-b611-4d6e-a5ee-05495e7115e2")
 	)
 	(wire
 		(pts
@@ -2329,16 +2294,6 @@
 			(type default)
 		)
 		(uuid "95610511-0aa3-48b9-8db1-0353ead69a6f")
-	)
-	(wire
-		(pts
-			(xy 86.36 180.34) (xy 88.9 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97b95f17-385b-41b9-85b5-db794be87f7f")
 	)
 	(wire
 		(pts
@@ -2997,30 +2952,6 @@
 		(uuid "702e26d8-cb48-49a9-a117-7b33575cf62a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 68.9647 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "C15"
-		(shape input)
-		(at 107.95 180.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "708ffa3f-d444-4f73-8233-04c3f76f96d0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.6242 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4006,85 +3937,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 88.9 185.42 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "104281e1-c80b-45d4-b6ba-f24ed1a5e031")
-		(property "Reference" "#PWR044"
-			(at 82.55 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 85.09 185.4199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "844a0247-4482-4e5a-885f-4324a5d90956")
-		)
-		(instances
-			(project "Line"
-				(path "/83158fa6-7940-4577-8ef8-91cc81c49df5"
-					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 59.69 52.07 90)
 		(unit 1)
 		(body_style 1)
@@ -4799,7 +4651,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TCRT5000:TCRT5000")
+		(lib_id "Sensor_Proximity:QRE1113GR")
 		(at 96.52 93.98 0)
 		(unit 1)
 		(body_style 1)
@@ -4810,7 +4662,7 @@
 		(dnp no)
 		(uuid "2cc50fa7-2d2b-471f-9f39-dbd4c09482f1")
 		(property "Reference" "U7"
-			(at 96.774 103.124 0)
+			(at 92.71 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4819,30 +4671,19 @@
 				)
 			)
 		)
-		(property "Value" "TCRT5000"
-			(at 97.536 100.838 0)
+		(property "Value" "QRE1113GR"
+			(at 107.95 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TCRT5000:OPTO_TCRT5000"
-			(at 96.52 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 93.98 0)
+		(property "Footprint" "OptoDevice:OnSemi_CASE100CY"
+			(at 96.52 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4852,7 +4693,18 @@
 				)
 			)
 		)
-		(property "Description" "Reflective Optical Sensor 0.591 (15mm) PCB Mount"
+		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF"
+			(at 96.52 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Miniature Reflective Optical Object Sensor, SMD-4"
 			(at 96.52 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -4861,7 +4713,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(property "MF" "Vishay"
@@ -5008,16 +4859,16 @@
 				(justify bottom)
 			)
 		)
-		(pin "COLL"
+		(pin "3"
 			(uuid "98cfd93c-e51c-4fcb-9323-c93970cb1371")
 		)
-		(pin "A"
+		(pin "1"
 			(uuid "ad05904b-039d-4c94-8414-4c6e4d34fbc8")
 		)
-		(pin "CATH"
+		(pin "2"
 			(uuid "873640d4-7854-4bf7-b174-b3fa84a5a067")
 		)
-		(pin "E"
+		(pin "4"
 			(uuid "23b8c462-407c-4448-978c-e7b757556973")
 		)
 		(instances
@@ -5642,7 +5493,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TCRT5000:TCRT5000")
+		(lib_id "Sensor_Proximity:QRE1113GR")
 		(at 96.52 49.53 0)
 		(unit 1)
 		(body_style 1)
@@ -5653,7 +5504,7 @@
 		(dnp no)
 		(uuid "41d4f1ca-acee-47fb-9d8c-5216338dd9d2")
 		(property "Reference" "U3"
-			(at 96.774 58.674 0)
+			(at 92.71 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5662,30 +5513,19 @@
 				)
 			)
 		)
-		(property "Value" "TCRT5000"
-			(at 97.536 56.388 0)
+		(property "Value" "QRE1113GR"
+			(at 107.95 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TCRT5000:OPTO_TCRT5000"
-			(at 96.52 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 49.53 0)
+		(property "Footprint" "OptoDevice:OnSemi_CASE100CY"
+			(at 96.52 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5695,7 +5535,18 @@
 				)
 			)
 		)
-		(property "Description" "Reflective Optical Sensor 0.591 (15mm) PCB Mount"
+		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF"
+			(at 96.52 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Miniature Reflective Optical Object Sensor, SMD-4"
 			(at 96.52 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -5704,7 +5555,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(property "MF" "Vishay"
@@ -5851,16 +5701,16 @@
 				(justify bottom)
 			)
 		)
-		(pin "COLL"
+		(pin "4"
 			(uuid "9af2bf55-e1f6-46b3-bf65-b9dca615cb1f")
 		)
-		(pin "A"
+		(pin "3"
 			(uuid "b72ebbff-9362-4446-9454-b3006870812e")
 		)
-		(pin "CATH"
+		(pin "1"
 			(uuid "9fc81398-8e11-45dd-b63c-a7520ea5d2c5")
 		)
-		(pin "E"
+		(pin "2"
 			(uuid "1d08165c-0a29-4c98-8839-cf51f82a2ea8")
 		)
 		(instances
@@ -6591,87 +6441,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 107.95 176.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "596863f6-3b14-4d55-a26d-b7e2a98e0322")
-		(property "Reference" "R32"
-			(at 110.744 176.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 102.616 176.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 106.172 176.53 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 107.95 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d6991aa5-57ab-452b-a174-78b39ec44ed8")
-		)
-		(pin "1"
-			(uuid "5c6700d7-df81-4518-9410-6a20195dcfb2")
-		)
-		(instances
-			(project "Line"
-				(path "/83158fa6-7940-4577-8ef8-91cc81c49df5"
-					(reference "R32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 41.91 132.08 0)
 		(unit 1)
 		(body_style 1)
@@ -6752,7 +6521,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TCRT5000:TCRT5000")
+		(lib_id "Sensor_Proximity:QRE1113GR")
 		(at 52.07 161.29 0)
 		(unit 1)
 		(body_style 1)
@@ -6763,7 +6532,7 @@
 		(dnp no)
 		(uuid "5b7b2daf-0326-477d-b2de-de6e1795343b")
 		(property "Reference" "U10"
-			(at 52.324 170.434 0)
+			(at 48.26 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6772,30 +6541,19 @@
 				)
 			)
 		)
-		(property "Value" "TCRT5000"
-			(at 53.086 168.148 0)
+		(property "Value" "QRE1113GR"
+			(at 63.5 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TCRT5000:OPTO_TCRT5000"
-			(at 52.07 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 161.29 0)
+		(property "Footprint" "OptoDevice:OnSemi_CASE100CY"
+			(at 52.07 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6805,7 +6563,18 @@
 				)
 			)
 		)
-		(property "Description" "Reflective Optical Sensor 0.591 (15mm) PCB Mount"
+		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF"
+			(at 52.07 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Miniature Reflective Optical Object Sensor, SMD-4"
 			(at 52.07 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -6814,7 +6583,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(property "MF" "Vishay"
@@ -6961,16 +6729,16 @@
 				(justify bottom)
 			)
 		)
-		(pin "COLL"
+		(pin "1"
 			(uuid "627bd3e8-4ad2-4116-a0ac-fd43d16713fa")
 		)
-		(pin "A"
+		(pin "4"
 			(uuid "3f21395e-c455-4fe9-8ba5-78fe6f67e594")
 		)
-		(pin "CATH"
+		(pin "3"
 			(uuid "99316d1d-953c-41c8-b601-711e0c38d672")
 		)
-		(pin "E"
+		(pin "2"
 			(uuid "6dda0d13-4699-4330-a093-51957e6153f5")
 		)
 		(instances
@@ -7062,7 +6830,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TCRT5000:TCRT5000")
+		(lib_id "Sensor_Proximity:QRE1113GR")
 		(at 96.52 161.29 0)
 		(unit 1)
 		(body_style 1)
@@ -7073,7 +6841,7 @@
 		(dnp no)
 		(uuid "6106f67c-ec54-4a3e-8814-313d82d515e0")
 		(property "Reference" "U14"
-			(at 96.774 170.434 0)
+			(at 92.71 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7082,30 +6850,19 @@
 				)
 			)
 		)
-		(property "Value" "TCRT5000"
-			(at 97.536 168.148 0)
+		(property "Value" "QRE1113GR"
+			(at 107.95 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TCRT5000:OPTO_TCRT5000"
-			(at 96.52 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 161.29 0)
+		(property "Footprint" "OptoDevice:OnSemi_CASE100CY"
+			(at 96.52 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7115,7 +6872,18 @@
 				)
 			)
 		)
-		(property "Description" "Reflective Optical Sensor 0.591 (15mm) PCB Mount"
+		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF"
+			(at 96.52 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Miniature Reflective Optical Object Sensor, SMD-4"
 			(at 96.52 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -7124,7 +6892,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(property "MF" "Vishay"
@@ -7271,16 +7038,16 @@
 				(justify bottom)
 			)
 		)
-		(pin "COLL"
+		(pin "4"
 			(uuid "a8f93fd5-e62a-4e5d-b2cd-75aaaf8bc23d")
 		)
-		(pin "A"
+		(pin "2"
 			(uuid "05e2280e-a84e-4c5b-ad5d-d00163a28cb4")
 		)
-		(pin "CATH"
+		(pin "1"
 			(uuid "e9f79298-5754-4163-b44e-65fb3d0e0d4c")
 		)
-		(pin "E"
+		(pin "3"
 			(uuid "567add83-558b-4929-ae24-c77f74341d72")
 		)
 		(instances
@@ -7451,7 +7218,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TCRT5000:TCRT5000")
+		(lib_id "Sensor_Proximity:QRE1113GR")
 		(at 96.52 27.94 0)
 		(unit 1)
 		(body_style 1)
@@ -7462,7 +7229,7 @@
 		(dnp no)
 		(uuid "6a19402f-7aa5-4bcb-ac46-7910795d0c33")
 		(property "Reference" "U1"
-			(at 96.774 37.084 0)
+			(at 92.71 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7471,30 +7238,19 @@
 				)
 			)
 		)
-		(property "Value" "TCRT5000"
-			(at 97.536 34.798 0)
+		(property "Value" "QRE1113GR"
+			(at 107.95 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TCRT5000:OPTO_TCRT5000"
-			(at 96.52 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 27.94 0)
+		(property "Footprint" "OptoDevice:OnSemi_CASE100CY"
+			(at 96.52 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7504,7 +7260,18 @@
 				)
 			)
 		)
-		(property "Description" "Reflective Optical Sensor 0.591 (15mm) PCB Mount"
+		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF"
+			(at 96.52 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Miniature Reflective Optical Object Sensor, SMD-4"
 			(at 96.52 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -7513,7 +7280,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(property "MF" "Vishay"
@@ -7660,16 +7426,16 @@
 				(justify bottom)
 			)
 		)
-		(pin "COLL"
+		(pin "4"
 			(uuid "5ed7ee5c-5652-472b-affa-9d862edec760")
 		)
-		(pin "A"
+		(pin "3"
 			(uuid "66f32c3a-6181-40c8-9875-336d9df59c16")
 		)
-		(pin "CATH"
+		(pin "2"
 			(uuid "0d0a7e08-606c-4152-8fe9-525ad04b921c")
 		)
-		(pin "E"
+		(pin "1"
 			(uuid "5e1adac4-54f6-4ff0-bd8c-b3757f9d59c0")
 		)
 		(instances
@@ -8474,7 +8240,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TCRT5000:TCRT5000")
+		(lib_id "Sensor_Proximity:QRE1113GR")
 		(at 52.07 49.53 0)
 		(unit 1)
 		(body_style 1)
@@ -8485,7 +8251,7 @@
 		(dnp no)
 		(uuid "81c1aa6b-d8fb-40f8-a242-e6836b3bc5f9")
 		(property "Reference" "U2"
-			(at 52.324 58.674 0)
+			(at 48.26 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8494,30 +8260,19 @@
 				)
 			)
 		)
-		(property "Value" "TCRT5000"
-			(at 53.086 56.388 0)
+		(property "Value" "QRE1113GR"
+			(at 63.5 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TCRT5000:OPTO_TCRT5000"
-			(at 52.07 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 49.53 0)
+		(property "Footprint" "OptoDevice:OnSemi_CASE100CY"
+			(at 52.07 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8527,7 +8282,18 @@
 				)
 			)
 		)
-		(property "Description" "Reflective Optical Sensor 0.591 (15mm) PCB Mount"
+		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF"
+			(at 52.07 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Miniature Reflective Optical Object Sensor, SMD-4"
 			(at 52.07 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -8536,7 +8302,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(property "MF" "Vishay"
@@ -8683,16 +8448,16 @@
 				(justify bottom)
 			)
 		)
-		(pin "COLL"
+		(pin "2"
 			(uuid "9ff95fd1-a027-4827-9724-7a60f06bbc6d")
 		)
-		(pin "A"
+		(pin "4"
 			(uuid "9bd40017-4a1e-4881-9c93-86c58006e665")
 		)
-		(pin "CATH"
+		(pin "3"
 			(uuid "a7def7b0-1319-4473-bf92-5f0db2bb6a34")
 		)
-		(pin "E"
+		(pin "1"
 			(uuid "2d0b95a6-942c-47fa-921a-9d9e4eeb31dc")
 		)
 		(instances
@@ -8938,87 +8703,6 @@
 			(project "Line"
 				(path "/83158fa6-7940-4577-8ef8-91cc81c49df5"
 					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 86.36 176.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8d47e52c-cd89-4048-bd01-6182a96cf652")
-		(property "Reference" "R28"
-			(at 88.392 176.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "150"
-			(at 80.518 176.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 84.582 176.53 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 86.36 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8de76da9-f8f1-4572-b6ba-ec12c6cc9259")
-		)
-		(pin "1"
-			(uuid "12636f60-c859-4a88-8489-37a8817b8e04")
-		)
-		(instances
-			(project "Line"
-				(path "/83158fa6-7940-4577-8ef8-91cc81c49df5"
-					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -9343,7 +9027,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TCRT5000:TCRT5000")
+		(lib_id "Sensor_Proximity:QRE1113GR")
 		(at 96.52 138.43 0)
 		(unit 1)
 		(body_style 1)
@@ -9354,7 +9038,7 @@
 		(dnp no)
 		(uuid "96767cd6-5c41-46e9-a321-03780fb06e74")
 		(property "Reference" "U13"
-			(at 96.774 147.574 0)
+			(at 92.71 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9363,30 +9047,19 @@
 				)
 			)
 		)
-		(property "Value" "TCRT5000"
-			(at 97.536 145.288 0)
+		(property "Value" "QRE1113GR"
+			(at 107.95 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TCRT5000:OPTO_TCRT5000"
-			(at 96.52 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 138.43 0)
+		(property "Footprint" "OptoDevice:OnSemi_CASE100CY"
+			(at 96.52 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9396,7 +9069,18 @@
 				)
 			)
 		)
-		(property "Description" "Reflective Optical Sensor 0.591 (15mm) PCB Mount"
+		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF"
+			(at 96.52 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Miniature Reflective Optical Object Sensor, SMD-4"
 			(at 96.52 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -9405,7 +9089,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(property "MF" "Vishay"
@@ -9552,16 +9235,16 @@
 				(justify bottom)
 			)
 		)
-		(pin "COLL"
+		(pin "2"
 			(uuid "f0efe95b-bba8-400e-ba69-faea2f5d2bd8")
 		)
-		(pin "A"
+		(pin "3"
 			(uuid "f92c4b57-3dd8-48cf-9bc1-edb252aaa939")
 		)
-		(pin "CATH"
+		(pin "1"
 			(uuid "05602053-2c42-4b3c-b2d4-ca6b23054db1")
 		)
-		(pin "E"
+		(pin "4"
 			(uuid "43196106-ab2f-4cc4-a9e8-3535aba6fc43")
 		)
 		(instances
@@ -9736,7 +9419,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TCRT5000:TCRT5000")
+		(lib_id "Sensor_Proximity:QRE1113GR")
 		(at 96.52 72.39 0)
 		(unit 1)
 		(body_style 1)
@@ -9747,7 +9430,7 @@
 		(dnp no)
 		(uuid "994f4686-82b0-446f-ba01-d883c4d0f69b")
 		(property "Reference" "U6"
-			(at 96.774 81.534 0)
+			(at 92.71 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9756,30 +9439,19 @@
 				)
 			)
 		)
-		(property "Value" "TCRT5000"
-			(at 97.536 79.248 0)
+		(property "Value" "QRE1113GR"
+			(at 107.95 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TCRT5000:OPTO_TCRT5000"
-			(at 96.52 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 72.39 0)
+		(property "Footprint" "OptoDevice:OnSemi_CASE100CY"
+			(at 96.52 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9789,7 +9461,18 @@
 				)
 			)
 		)
-		(property "Description" "Reflective Optical Sensor 0.591 (15mm) PCB Mount"
+		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF"
+			(at 96.52 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Miniature Reflective Optical Object Sensor, SMD-4"
 			(at 96.52 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -9798,7 +9481,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(property "MF" "Vishay"
@@ -9945,101 +9627,22 @@
 				(justify bottom)
 			)
 		)
-		(pin "COLL"
+		(pin "4"
 			(uuid "63ecd82e-f794-4db0-bd7e-701f69e4e207")
 		)
-		(pin "A"
+		(pin "3"
 			(uuid "8d4b655f-c15d-459e-96aa-6cdda412bbdc")
 		)
-		(pin "CATH"
+		(pin "1"
 			(uuid "592123a7-7d5a-47c9-ab89-7779d151e515")
 		)
-		(pin "E"
+		(pin "2"
 			(uuid "85f7fafa-0c9e-4a99-8490-06a42ee5ac1b")
 		)
 		(instances
 			(project "Line"
 				(path "/83158fa6-7940-4577-8ef8-91cc81c49df5"
 					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 81.28 172.72 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b3510b9-7829-44a6-b791-358482105fdf")
-		(property "Reference" "#PWR040"
-			(at 85.09 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 77.47 172.7199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 81.28 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4a6c39cd-9bdd-4ad2-bd83-d23a7a00d106")
-		)
-		(instances
-			(project "Line"
-				(path "/83158fa6-7940-4577-8ef8-91cc81c49df5"
-					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -10449,7 +10052,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TCRT5000:TCRT5000")
+		(lib_id "Sensor_Proximity:QRE1113GR")
 		(at 96.52 116.84 0)
 		(unit 1)
 		(body_style 1)
@@ -10460,7 +10063,7 @@
 		(dnp no)
 		(uuid "a5d3dfd7-3157-4a74-a383-ef3f17477ea0")
 		(property "Reference" "U12"
-			(at 96.774 125.984 0)
+			(at 92.71 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10469,30 +10072,19 @@
 				)
 			)
 		)
-		(property "Value" "TCRT5000"
-			(at 97.536 123.698 0)
+		(property "Value" "QRE1113GR"
+			(at 107.95 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TCRT5000:OPTO_TCRT5000"
-			(at 96.52 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 116.84 0)
+		(property "Footprint" "OptoDevice:OnSemi_CASE100CY"
+			(at 96.52 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10502,7 +10094,18 @@
 				)
 			)
 		)
-		(property "Description" "Reflective Optical Sensor 0.591 (15mm) PCB Mount"
+		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF"
+			(at 96.52 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Miniature Reflective Optical Object Sensor, SMD-4"
 			(at 96.52 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -10511,7 +10114,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(property "MF" "Vishay"
@@ -10658,16 +10260,16 @@
 				(justify bottom)
 			)
 		)
-		(pin "COLL"
+		(pin "1"
 			(uuid "53f3b9f7-9297-4a63-a7da-826cb6816ad0")
 		)
-		(pin "A"
+		(pin "2"
 			(uuid "8fbe5a6a-a08f-4b75-929f-55c75782ae9b")
 		)
-		(pin "CATH"
+		(pin "3"
 			(uuid "fa231136-8cb1-46ea-a903-3f30bab2ac5f")
 		)
-		(pin "E"
+		(pin "4"
 			(uuid "9bcdc16e-6470-45d3-851f-99e8297e9d3e")
 		)
 		(instances
@@ -10761,86 +10363,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 104.14 185.42 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a96f8a4e-140a-4bda-bb9d-e6e8617f8e92")
-		(property "Reference" "#PWR048"
-			(at 110.49 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 107.95 185.4199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "70e7a356-fa1e-4632-a834-e9b2f036982d")
-		)
-		(instances
-			(project "Line"
-				(path "/83158fa6-7940-4577-8ef8-91cc81c49df5"
-					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TCRT5000:TCRT5000")
+		(lib_id "Sensor_Proximity:QRE1113GR")
 		(at 52.07 138.43 0)
 		(unit 1)
 		(body_style 1)
@@ -10851,7 +10374,7 @@
 		(dnp no)
 		(uuid "abe95f04-7399-4521-b09b-3d4b93a59f36")
 		(property "Reference" "U9"
-			(at 52.324 147.574 0)
+			(at 48.26 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10860,30 +10383,19 @@
 				)
 			)
 		)
-		(property "Value" "TCRT5000"
-			(at 53.086 145.288 0)
+		(property "Value" "QRE1113GR"
+			(at 63.5 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TCRT5000:OPTO_TCRT5000"
-			(at 52.07 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 138.43 0)
+		(property "Footprint" "OptoDevice:OnSemi_CASE100CY"
+			(at 52.07 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10893,7 +10405,18 @@
 				)
 			)
 		)
-		(property "Description" "Reflective Optical Sensor 0.591 (15mm) PCB Mount"
+		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF"
+			(at 52.07 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Miniature Reflective Optical Object Sensor, SMD-4"
 			(at 52.07 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -10902,7 +10425,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(property "MF" "Vishay"
@@ -11049,16 +10571,16 @@
 				(justify bottom)
 			)
 		)
-		(pin "COLL"
+		(pin "3"
 			(uuid "20514986-2ddf-4d8d-a94e-318158d00ddc")
 		)
-		(pin "A"
+		(pin "4"
 			(uuid "aace224d-da8b-4cd0-bc60-0befb963ef58")
 		)
-		(pin "CATH"
+		(pin "1"
 			(uuid "bb4a4092-b05b-4f57-96f5-b99650eda836")
 		)
-		(pin "E"
+		(pin "2"
 			(uuid "bda93828-b7f2-4063-97be-f10db0340aad")
 		)
 		(instances
@@ -11233,7 +10755,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TCRT5000:TCRT5000")
+		(lib_id "Sensor_Proximity:QRE1113GR")
 		(at 52.07 182.88 0)
 		(unit 1)
 		(body_style 1)
@@ -11244,7 +10766,7 @@
 		(dnp no)
 		(uuid "b3424f89-c385-4b7f-b892-bae7f2a2a400")
 		(property "Reference" "U11"
-			(at 52.324 192.024 0)
+			(at 48.26 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11253,30 +10775,19 @@
 				)
 			)
 		)
-		(property "Value" "TCRT5000"
-			(at 53.086 189.738 0)
+		(property "Value" "QRE1113GR"
+			(at 63.5 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TCRT5000:OPTO_TCRT5000"
-			(at 52.07 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 182.88 0)
+		(property "Footprint" "OptoDevice:OnSemi_CASE100CY"
+			(at 52.07 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11286,7 +10797,18 @@
 				)
 			)
 		)
-		(property "Description" "Reflective Optical Sensor 0.591 (15mm) PCB Mount"
+		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF"
+			(at 52.07 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Miniature Reflective Optical Object Sensor, SMD-4"
 			(at 52.07 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -11295,7 +10817,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(property "MF" "Vishay"
@@ -11442,16 +10963,16 @@
 				(justify bottom)
 			)
 		)
-		(pin "COLL"
+		(pin "4"
 			(uuid "37c2a60e-f408-4bca-9bc6-af62810302f9")
 		)
-		(pin "A"
+		(pin "3"
 			(uuid "ac064f4b-cf9a-415d-ad22-32a385d412b1")
 		)
-		(pin "CATH"
+		(pin "2"
 			(uuid "b4c01f81-014b-4c9b-adc2-4db0746e0e71")
 		)
-		(pin "E"
+		(pin "1"
 			(uuid "6fabdd2f-427a-40cf-aa14-55b368e8a0a7")
 		)
 		(instances
@@ -11707,7 +11228,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TCRT5000:TCRT5000")
+		(lib_id "Sensor_Proximity:QRE1113GR")
 		(at 52.07 72.39 0)
 		(unit 1)
 		(body_style 1)
@@ -11718,7 +11239,7 @@
 		(dnp no)
 		(uuid "b9badcda-af31-40a9-95c3-0222fde318fd")
 		(property "Reference" "U4"
-			(at 52.324 81.534 0)
+			(at 48.26 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11727,30 +11248,19 @@
 				)
 			)
 		)
-		(property "Value" "TCRT5000"
-			(at 53.086 79.248 0)
+		(property "Value" "QRE1113GR"
+			(at 63.5 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TCRT5000:OPTO_TCRT5000"
-			(at 52.07 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 72.39 0)
+		(property "Footprint" "OptoDevice:OnSemi_CASE100CY"
+			(at 52.07 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11760,7 +11270,18 @@
 				)
 			)
 		)
-		(property "Description" "Reflective Optical Sensor 0.591 (15mm) PCB Mount"
+		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF"
+			(at 52.07 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Miniature Reflective Optical Object Sensor, SMD-4"
 			(at 52.07 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -11769,7 +11290,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(property "MF" "Vishay"
@@ -11916,16 +11436,16 @@
 				(justify bottom)
 			)
 		)
-		(pin "COLL"
+		(pin "1"
 			(uuid "aaefadd6-5449-49ce-8eb7-90d763dea072")
 		)
-		(pin "A"
+		(pin "3"
 			(uuid "35602718-fbde-47f0-81b3-65996deedbe9")
 		)
-		(pin "CATH"
+		(pin "4"
 			(uuid "4d16f394-dddb-4971-a15b-7e12b40c0b2f")
 		)
-		(pin "E"
+		(pin "2"
 			(uuid "309cba1c-71bb-4aae-b6b0-7ed62ab65a43")
 		)
 		(instances
@@ -12256,7 +11776,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TCRT5000:TCRT5000")
+		(lib_id "Sensor_Proximity:QRE1113GR")
 		(at 52.07 116.84 0)
 		(unit 1)
 		(body_style 1)
@@ -12267,7 +11787,7 @@
 		(dnp no)
 		(uuid "c97bc2e1-891e-4f28-be69-6c1bc51f5fd7")
 		(property "Reference" "U8"
-			(at 52.324 125.984 0)
+			(at 48.26 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12276,30 +11796,19 @@
 				)
 			)
 		)
-		(property "Value" "TCRT5000"
-			(at 53.086 123.698 0)
+		(property "Value" "QRE1113GR"
+			(at 63.5 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TCRT5000:OPTO_TCRT5000"
-			(at 52.07 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 116.84 0)
+		(property "Footprint" "OptoDevice:OnSemi_CASE100CY"
+			(at 52.07 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12309,7 +11818,18 @@
 				)
 			)
 		)
-		(property "Description" "Reflective Optical Sensor 0.591 (15mm) PCB Mount"
+		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF"
+			(at 52.07 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Miniature Reflective Optical Object Sensor, SMD-4"
 			(at 52.07 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -12318,7 +11838,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(property "MF" "Vishay"
@@ -12465,16 +11984,16 @@
 				(justify bottom)
 			)
 		)
-		(pin "COLL"
+		(pin "2"
 			(uuid "fa66d6e5-efa9-4c25-aec6-7ca064f39058")
 		)
-		(pin "A"
+		(pin "3"
 			(uuid "005b4fc2-a9b6-489d-9855-678445163ad8")
 		)
-		(pin "CATH"
+		(pin "4"
 			(uuid "d33ec996-b56c-402a-8fcf-db001925cd8e")
 		)
-		(pin "E"
+		(pin "1"
 			(uuid "754a820c-9588-4e31-834a-1fa41220c956")
 		)
 		(instances
@@ -12639,237 +12158,6 @@
 			(project "Line"
 				(path "/83158fa6-7940-4577-8ef8-91cc81c49df5"
 					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TCRT5000:TCRT5000")
-		(at 96.52 182.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d34921d9-ffda-4a8d-aa13-89c2177c9955")
-		(property "Reference" "U15"
-			(at 96.774 192.024 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TCRT5000"
-			(at 97.536 189.738 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TCRT5000:OPTO_TCRT5000"
-			(at 96.52 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Reflective Optical Sensor 0.591 (15mm) PCB Mount"
-			(at 96.52 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "Vishay"
-			(at 96.52 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "7.2mm"
-			(at 96.52 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "TCRT5000 Vishay"
-			(at 96.52 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 96.52 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TCRT5000/Vishay+Semiconductor+Opto+Division/view-part/?ref=eda"
-			(at 96.52 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer recommendations"
-			(at 96.52 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "1.7"
-			(at 96.52 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TCRT5000/Vishay+Semiconductor+Opto+Division/view-part/?ref=snap"
-			(at 96.52 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "TCRT5000"
-			(at 96.52 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=885229&manufacturer=Vishay&part_name=TCRT5000&search_term=None"
-			(at 96.52 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 96.52 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Vishay"
-			(at 96.52 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "COLL"
-			(uuid "87db70ba-c028-45d8-852e-8f97fc6106d6")
-		)
-		(pin "A"
-			(uuid "071d48c3-3ccb-4ffb-93e3-83589bebc7b9")
-		)
-		(pin "CATH"
-			(uuid "10f50abd-e318-4d1f-9b4e-111d1ab86ca1")
-		)
-		(pin "E"
-			(uuid "c74cbda5-9339-4715-ab88-c7e9821de624")
-		)
-		(instances
-			(project "Line"
-				(path "/83158fa6-7940-4577-8ef8-91cc81c49df5"
-					(reference "U15")
 					(unit 1)
 				)
 			)
@@ -13115,6 +12403,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 220.98 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6d6b8b9-0847-4d53-a520-b187d28388a1")
+		(property "Reference" "H1"
+			(at 223.52 44.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 223.52 46.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 220.98 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 220.98 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Line"
+				(path "/83158fa6-7940-4577-8ef8-91cc81c49df5"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 41.91 43.18 0)
 		(unit 1)
@@ -13190,6 +12554,82 @@
 			(project "Line"
 				(path "/83158fa6-7940-4577-8ef8-91cc81c49df5"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 220.98 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed350a88-fa42-4356-ba27-defd32222c59")
+		(property "Reference" "H2"
+			(at 223.52 53.3399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 223.52 55.8799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 220.98 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 220.98 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Line"
+				(path "/83158fa6-7940-4577-8ef8-91cc81c49df5"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -13833,7 +13273,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TCRT5000:TCRT5000")
+		(lib_id "Sensor_Proximity:QRE1113GR")
 		(at 52.07 27.94 0)
 		(unit 1)
 		(body_style 1)
@@ -13844,7 +13284,7 @@
 		(dnp no)
 		(uuid "f6f4fbff-e155-4d8f-96a2-a00d3d13c3ea")
 		(property "Reference" "U0"
-			(at 52.324 37.084 0)
+			(at 48.26 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13853,30 +13293,19 @@
 				)
 			)
 		)
-		(property "Value" "TCRT5000"
-			(at 53.086 34.798 0)
+		(property "Value" "QRE1113GR"
+			(at 63.5 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TCRT5000:OPTO_TCRT5000"
-			(at 52.07 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 27.94 0)
+		(property "Footprint" "OptoDevice:OnSemi_CASE100CY"
+			(at 52.07 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13886,7 +13315,18 @@
 				)
 			)
 		)
-		(property "Description" "Reflective Optical Sensor 0.591 (15mm) PCB Mount"
+		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF"
+			(at 52.07 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Miniature Reflective Optical Object Sensor, SMD-4"
 			(at 52.07 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -13895,7 +13335,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(property "MF" "Vishay"
@@ -14042,16 +13481,16 @@
 				(justify bottom)
 			)
 		)
-		(pin "COLL"
+		(pin "4"
 			(uuid "76bf40e2-5a4f-40c4-aa73-c35ef872063e")
 		)
-		(pin "A"
+		(pin "3"
 			(uuid "779e92be-83a8-460e-a41b-ba3c18b6e8b0")
 		)
-		(pin "CATH"
+		(pin "2"
 			(uuid "408338f8-05dd-49a7-9577-dbe8f2b4baf3")
 		)
-		(pin "E"
+		(pin "1"
 			(uuid "a786d45c-985b-4eb6-9557-d6e68c9f0ec3")
 		)
 		(instances
@@ -14224,7 +13663,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TCRT5000:TCRT5000")
+		(lib_id "Sensor_Proximity:QRE1113GR")
 		(at 52.07 93.98 0)
 		(unit 1)
 		(body_style 1)
@@ -14235,7 +13674,7 @@
 		(dnp no)
 		(uuid "ff6c6f1b-6e36-4b54-99cc-51edb891f36e")
 		(property "Reference" "U5"
-			(at 52.324 103.124 0)
+			(at 48.26 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14244,30 +13683,19 @@
 				)
 			)
 		)
-		(property "Value" "TCRT5000"
-			(at 53.086 100.838 0)
+		(property "Value" "QRE1113GR"
+			(at 63.5 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TCRT5000:OPTO_TCRT5000"
-			(at 52.07 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 93.98 0)
+		(property "Footprint" "OptoDevice:OnSemi_CASE100CY"
+			(at 52.07 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14277,7 +13705,18 @@
 				)
 			)
 		)
-		(property "Description" "Reflective Optical Sensor 0.591 (15mm) PCB Mount"
+		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF"
+			(at 52.07 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Miniature Reflective Optical Object Sensor, SMD-4"
 			(at 52.07 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -14286,7 +13725,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(property "MF" "Vishay"
@@ -14433,16 +13871,16 @@
 				(justify bottom)
 			)
 		)
-		(pin "COLL"
+		(pin "3"
 			(uuid "5d08770a-99d3-4385-bb29-e841e17a762e")
 		)
-		(pin "A"
+		(pin "1"
 			(uuid "29ae7ce1-5b66-4ce4-9581-871dde9c7e5a")
 		)
-		(pin "CATH"
+		(pin "4"
 			(uuid "2da606d1-1b7a-4206-a881-83855f025ce6")
 		)
-		(pin "E"
+		(pin "2"
 			(uuid "e56bd6be-aeea-4282-9eb2-a1646efaf1e7")
 		)
 		(instances
