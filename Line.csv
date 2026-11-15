@@ -1,0 +1,7 @@
+Reference,Qty,Value,Footprint,,,,,,Datasheet
+C1,1,100uF,Capacitor_SMD:C_0603_1608Metric,,,,,,
+D1,1,LED,LED_SMD:LED_0603_1608Metric,,,,,,
+J1,1,Conn_01x06_Pin,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,,,,,,
+"R5,R7,R9,R10,R13,R14,R17,R18,R19,R20,R25",11,150,Resistor_SMD:R_0805_2012Metric,,,,,,
+"R6,R8,R11,R12,R15,R16,R21,R22,R23,R24,R29,R33",12,10K,Resistor_SMD:R_0805_2012Metric,,,,,,
+R34,1,470,Resistor_SMD:R_0805_2012Metric,,,,,,
